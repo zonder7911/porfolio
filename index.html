@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+    <section id="n1" class="header">
+        <div class="overlay">
+            <div class="slogan"> 
+                <h1>HTML - верстальщик</h1>
+            </div>
+        </div>
+    </section>
+    <section id="n2">
+        <div  class="about">
+            <img src="img/undraw_developer_activity_re_39tg.svg" alt="avatar">
+            <div class="text_wight">
+                <p>Меня зовут Владимир Полишевский, я начинающий HTML - верстальщик. Я помогу в создании лендингов или многостраничных сайтов по предоставленным макетам, если макета нет, то я смогу создать его на основе ваших пожеланий.</p>
+            </div>
+        </div>
+    </section>
+    <section id="n3" class="programs">
+    <div class="flex">
+        <div class="text">
+            <h2>Что я использую в процессе верстки</h2>
+        </div>
+        <div class="programs-icons">
+            <img src="img/html.png" alt="html" class="icon">
+            <img src="img/css.png" alt="css" class="icon">
+            <img src="img/figma.png" alt="figma" class="icon">
+            <img src="img/github.png" alt="github" class="icon">
+        </div>
+        <div class="overlay"></div>
+    </div>
+    </section>
+    <section id="n4" class="works">
+        <div class="work_block">
+            <h2>Мои работы</h2>
+                <div class="work_img_block">
+                    <a href="https://zonder7911.github.io/my-site/">
+                        <img src="img/hovering.png" alt="hovering" class="work_img">
+                    </a>
+                </div>
+            <p class="work_name">HOVERING</p>
+        </div>
+    </section>
+    <section id="n5" class="contacts"> 
+        <div class="input">
+            <form action id="contact-form">
+            <div class="element">
+                <label for="name"><p>Имя и фамилия</p></label>
+                <br>
+                <input name="name" type="text" class="element-size">
+            </div>
+            <div class="element">
+                <label for="name"><p>Почта</p></label>
+                <br>
+                <input name="name" type="email" class="element-size" required>
+            </div>
+            <div class="element">
+                <label for="topic"><p>Выбор услуги</p></label>
+                <br>
+                <select name="topic" id="topic" class="element-size">
+                    <option value="1">Верстка сайта</option>
+                    <option value="2">Макет сайта</option>
+                </select>
+            </div>
+            <div class="element-max">
+                <input type="submit" class="element-size">
+            </div>
+            </form>
+            <div class="text_wight" class="text_background">
+                <p>Вы можете заполнить форму для заказа услуг по созданию сайта или макета. Для этого укажите ваше имя и фамилию, почту и выберите услугу.</p>
+            </div>
+        </div> 
+        <div class="overlay"> </div>
+    </section>
+    <nav>
+        <a href="#n2">Обо мне</a>
+        <a href="#n3">С чем я работаю</a>
+        <a href="#n4">Мои работы</a>
+        <a href="#n5">Контакты</a>
+    </nav>
+    <footer>
+        <div>
+            <p class="text_footer">Я на связи с вами </p>
+        </div>
+        <div>
+            <p class="text_footer"> 8 (909) 234-23-23</p>
+        </div>
+    </footer>
+</main>
+</body>
+</html>

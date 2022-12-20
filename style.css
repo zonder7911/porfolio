@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    display: block;
+}
+h1{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 110px;
+}
+h2{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+p{
+    color: aliceblue;
+    font-size: 45px;
+}
+.text{
+    z-index: 5;
+}
+.text_wight{
+    width: 50%;
+    z-index: 5;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 850px;
+    padding: 5% 5% 5% 5%;
+}
+img{
+    height: 500px;
+    width: 500px;
+}
+section:nth-child(odd){
+    background: #000000;
+}
+section:nth-child(even){
+    background: #88a109;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background: black;
+    z-index: 10;
+}
+nav a{
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 8px 25px;
+    font-size: 35px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+nav a:hover{
+    background: aliceblue;
+    color: #000000;
+}
+nav a:active{
+    background: rgb(143, 61, 61);
+}
+section.header{
+    background-image: url(https://wp-s.ru/wallpapers/10/12/547900522852352/les-u-podnozhya-vulkana-i-ozero.jpg);
+}
+.slogan{
+    text-align: center;
+    margin-top: 300px;
+    z-index: 5;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+section.programs{
+    background-image: url(https://img2.joyreactor.cc/pics/post/full/%D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B0-%D0%BB%D0%B5%D1%81-2689293.jpeg);
+}
+.overlay{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.icon{
+    height: 200px;
+    width: 200px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 150px;
+}
+.programs-icons{
+    z-index: 5;
+}
+.input{
+    z-index: 6;
+}
+section.contacts{
+    background-image: url(https://вести35.рф/images/2021/09/07/65062cbc0d0546c09040e97a53ecab83.jpeg);
+}
+.work_block{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.work_img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    border: 5px solid black;
+    padding: 5px;
+}
+.work_img_block{
+    display: block;
+    height: 50%;
+    width: 50%;
+    margin-top: 40px;
+   
+}
+.work_name{
+    margin-top: 40px;
+    text-decoration: underline;
+}
+#contact-form input[type="submit"]{
+    border: 0;
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+    
+}
+form{
+    z-index: 5;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5%;
+    border-radius: 50px;
+}
+.text_wight{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5%;
+    border-radius: 50px;
+}
+.element-size{
+    width: 100%;
+    font-size: 30px;
+}
+.element{
+    margin-top: 10px;
+}
+.element-max{
+    margin-top: 70px;
+}
+footer{
+    padding: 10px;
+    display: flex;
+    height: 60px;
+    background-color: #000000;
+    align-items: center;
+    justify-content: space-between;
+}
+.text_footer{
+    font-size: 30px;
+    color: rgb(104, 107, 109);
+}
